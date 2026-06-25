@@ -8,7 +8,7 @@ public class caixaeletronico {
 		System.out.println("_____Caixa ELETRONICO_______");
 		System.out.print("Digite o valor do saque:");
 		double valorSaque = sc .nextDouble();
-		if (valorSaque%10!=0);{
+		if (valorSaque%10!=0){
 			System.out.println("Erro: O valor deve ser multiplo de 10");
 		}
 		  else if (valorSaque>saldo) {

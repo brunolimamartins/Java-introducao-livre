@@ -10,7 +10,7 @@ public class LoginSimples {
 		System.out.print("Digite sua senha:");
 		int senha = sc.nextInt();
 		
-		if ((nome.equals("admin") && (senha == 123 )){
+		if ((nome.equals("admin") && (senha == 123 ))){
 			System.out.print("Login foi realizado com sucesso.");
 			
 		}
